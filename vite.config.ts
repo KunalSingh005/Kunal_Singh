@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      // 1. ISSE ADD KARO: Repository name ka slash ke sath use karein
+      base: '/Kunal_Singh/', 
+
       server: {
         port: 3000,
         host: '0.0.0.0',
