@@ -28,7 +28,7 @@ const ResumeSection: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             {/* Download Button: Ensure file name in public folder is Kunal_Singh.pdf */}
             <a
-              href="/publib/Kunal_Singh.pdf" 
+              href="/public/Kunal_Singh.pdf" 
               download="Kunal_Singh.pdf"
               className="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-white text-blue-700 font-bold hover:bg-blue-50 transition-colors flex items-center justify-center no-underline"
             >
