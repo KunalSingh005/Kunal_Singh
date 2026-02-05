@@ -5,6 +5,7 @@ import { FileText, Download } from 'lucide-react';
 const ResumeSection: React.FC = () => {
   return (
     <section id="resume" className="py-20 bg-blue-600 dark:bg-blue-700 relative overflow-hidden">
+      {/* Background patterns */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full mix-blend-overlay filter blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute bottom-0 right-0 w-64 h-64 bg-white rounded-full mix-blend-overlay filter blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
@@ -25,19 +26,21 @@ const ResumeSection: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            {/* Download Button Fix: Link to your PDF file in public folder */}
+            {/* Download Button: Ensure file name in public folder is Kunal_Singh.pdf */}
             <a
-              href="/Kunal Singh.pdf" 
-              download="Kunal Singh.pdf"
+              href="/Kunal_Singh.pdf" 
+              download="Kunal_Singh_Resume.pdf"
               className="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-white text-blue-700 font-bold hover:bg-blue-50 transition-colors flex items-center justify-center no-underline"
             >
               <Download className="w-5 h-5 mr-2" />
               Download Resume (PDF)
             </a>
 
-            {/* View Full Profile: Link to LinkedIn or About Section */}
+            {/* LinkedIn Profile: Fixed with https and security attributes */}
             <a
-              href="www.linkedin.com/in/kunalsingh005" // Isse LinkedIn link ya portfolio ke top par bhej sakte ho
+              href="https://www.linkedin.com/in/kunalsingh005" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-blue-800/50 text-white border border-blue-400/30 hover:bg-blue-800 transition-colors flex items-center justify-center font-medium no-underline"
             >
               <FileText className="w-5 h-5 mr-2" />
