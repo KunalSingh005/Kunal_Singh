@@ -44,7 +44,7 @@ Experience in:
 
 ## Live Portfolio
 
-[Add your live GitHub Pages / portfolio link here]
+[https://kunalsingh005.github.io/Kunal_Singh/]
 
 ## Resume
 
