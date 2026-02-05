@@ -27,7 +27,7 @@ const ResumeSection: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             {/* Download Button Fix: Link to your PDF file in public folder */}
             <a
-              href="/Kunal_Singh_Resume.pdf" 
+              href="/Kunal Singh.pdf" 
               download="Kunal Singh.pdf"
               className="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-white text-blue-700 font-bold hover:bg-blue-50 transition-colors flex items-center justify-center no-underline"
             >
