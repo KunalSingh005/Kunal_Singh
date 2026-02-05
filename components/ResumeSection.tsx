@@ -38,7 +38,7 @@ const ResumeSection: React.FC = () => {
 
             {/* LinkedIn Profile: Fixed with https and security attributes */}
             <a
-              href="https://www.linkedin.com/in/kunalsingh005" 
+              href="https://www.linkedin.com/in/kunalsingh005/" 
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-blue-800/50 text-white border border-blue-400/30 hover:bg-blue-800 transition-colors flex items-center justify-center font-medium no-underline"
