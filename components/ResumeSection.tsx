@@ -29,7 +29,7 @@ const ResumeSection: React.FC = () => {
             {/* Download Button: Ensure file name in public folder is Kunal_Singh.pdf */}
             <a
               href="/Kunal_Singh.pdf" 
-              download="Kunal_Singh_Resume.pdf"
+              download="Kunal_Singh.pdf"
               className="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-white text-blue-700 font-bold hover:bg-blue-50 transition-colors flex items-center justify-center no-underline"
             >
               <Download className="w-5 h-5 mr-2" />
